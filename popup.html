@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Local Storage</title>
+  </head>
+  <style>
+    body{
+        width: 300px;
+    }
+    h1{
+        margin-left: auto;
+        color: rgb(0, 162, 255);
+    }
+    li{
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    li::after{
+        content: '';
+        width: 100%;
+    }
+    button{
+        border: none;
+        background: rgb(243, 14, 14);
+        margin-left: 100px;
+        padding: 10px;
+        font-weight: bold;
+        border-radius: 4px;
+        color: #fff;
+    }
+  </style>
+  <body>
+    <h1>My Quotes <button id="del">Clear</button> </h1>
+    
+    <ul id="data-list"></ul>
+    <script src="clientside.js"></script>
+  </body>
+</html>

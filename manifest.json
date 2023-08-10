@@ -1,0 +1,19 @@
+{
+    "name": "Random quotes generator ",
+    "version": "1.0",
+    "description":"Generating random quotes on every click and store data in local storage using Chrome's Storage API",
+    "manifest_version": 3,
+    "background": {
+      "service_worker": "background.js"
+    },
+    "icons":{
+        "128":"storage.png"
+    },
+    "permissions": [
+      "storage"
+    ],
+    "action": {
+      "default_popup": "popup.html"
+    }
+  }
+  
